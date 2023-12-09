@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background: blue;
+}
+
+.logo {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 0 1.5rem;
+}
+
+.hero {
+    background: blue;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0 2rem;
+}
+
+.column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.column-left p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.colum-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.hero-img {
+    width: 75%;
+    height: 75%;
+    border-radius: 100%;
+    padding: 0 2rem;
+}
